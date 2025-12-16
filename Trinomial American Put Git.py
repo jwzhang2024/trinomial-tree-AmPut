@@ -21,4 +21,5 @@ def TriTree_Am_Put(S0, K, r, sigma, T, N, isRound=False, dp=4):
 S0,K,r,sigma,T,N=50, 50, 0.1, 0.4, 1, 3
 print(TriTree_Am_Put(S0,K,r,sigma,T,N))
 print(TriTree_Am_Put(S0,K,r,sigma,T,N,isRound=True))
-print(TriTree_Am_Put(S0,K,r,sigma,T,N=12))
+
+print(TriTree_Am_Put(S0,K,r,sigma,T,N=12)) #change N to increase simulation number
